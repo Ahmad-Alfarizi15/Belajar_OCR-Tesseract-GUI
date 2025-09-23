@@ -60,12 +60,19 @@ Proyek ini merupakan aplikasi GUI sederhana untuk melakukan **OCR (Optical Chara
 
 OCR-Tesseract-GUI/
 ├── OCR_Tesseract-GUI.py        # File utama aplikasi GUI
+
 ├── README.md                   # Dokumentasi proyek
+
 ├── screenshots/                # Screenshot tampilan aplikasi
+
 │   ├── ui_awal.png
+
 │   ├── setelah_open_image.png
+
 │   └── hasil_ocr.png
+
 ├── contoh-gambar/              # Gambar untuk uji coba OCR
+
 │   └── sample_text.png
 
 
