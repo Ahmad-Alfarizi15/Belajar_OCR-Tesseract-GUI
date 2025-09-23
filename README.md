@@ -59,14 +59,15 @@ Proyek ini merupakan aplikasi GUI sederhana untuk melakukan **OCR (Optical Chara
 ##  Struktur Folder
 
 OCR-Tesseract-GUI/
-├── OCR_Tesseract-GUI.py # File utama aplikasi GUI
-├── README.md # Dokumentasi proyek
-├── screenshots/ # Screenshot tampilan aplikasi
-│ ├── ui_awal.png
-│ ├── setelah_open_image.png
-│ └── hasil_ocr.png
-├── contoh-gambar/ # Gambar untuk uji coba OCR
-│ └── sample_text.png
+├── OCR_Tesseract-GUI.py        # File utama aplikasi GUI
+├── README.md                   # Dokumentasi proyek
+├── screenshots/                # Screenshot tampilan aplikasi
+│   ├── ui_awal.png
+│   ├── setelah_open_image.png
+│   └── hasil_ocr.png
+├── contoh-gambar/              # Gambar untuk uji coba OCR
+│   └── sample_text.png
+
 
 
 ---
@@ -85,7 +86,7 @@ OCR-Tesseract-GUI/
 4. **Jalankan aplikasi:**
     python OCR_Tesseract-GUI.py
 
-** Tips Penggunaan**
+**Tips Penggunaan**
 Gunakan gambar dengan teks yang jelas dan tidak blur untuk hasil terbaik.
 Bahasa OCR default adalah eng (Inggris). Untuk teks berbahasa Indonesia, ubah ke ind di bagian kode berikut:
 text = pytesseract.image_to_string(pil_img, lang="ind")
