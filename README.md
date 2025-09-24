@@ -99,6 +99,9 @@ Bahasa OCR default adalah eng (Inggris). Untuk teks berbahasa Indonesia, ubah ke
 text = pytesseract.image_to_string(pil_img, lang="ind")
 
 **Dibuat Oleh**
+
 **Nama**: Ahmad Alfarizi
+
 **Tanggal**: 23 September 2025
+
 **Proyek**: Belajar OCR GUI dengan Python + PyQt5 + Tesseract
